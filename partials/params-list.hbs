@@ -1,0 +1,9 @@
+{{#if params}}
+{{#params}}**Params**
+
+{{#each this~}}
+{{indent}}- {{#if type}} {{>linked-type-list types=type.names delimiter="|" }}{{/if}} {{#if optional}}[{{/if}}{{name}}{{#unless (equal defaultvalue undefined)}}{{>defaultvalue equals=true ~}}{{/unless}}{{#if optional}}]{{/if}}{{#if description}} - {{{inlineLinks description}}}{{/if}}
+{{/each}}
+
+{{/params~}}
+{{/if}}

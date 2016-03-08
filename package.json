@@ -1,0 +1,19 @@
+{
+  "name": "plugin-for-dmd",
+  "description": "A better markdown template for jsdoc",
+  "version": "1.0.0",
+  "homepage": "https://github.com/fool2fish/plugin-for-dmd",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fool2fish/plugin-for-dmd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fool2fish/plugin-for-dmd/issues"
+  },
+  "keywords": [
+    "jsdoc",
+    "dmd",
+    "markdown",
+    "template"
+  ]
+}
